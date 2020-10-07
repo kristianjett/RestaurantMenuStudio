@@ -14,12 +14,16 @@ namespace RestaurantMenuStudio
 
     public bool IsNew { get; set; }
 
+    public string NewField { get; set; }
+
     public MenuItem(double price, string description, string category, bool isNew)
         {
             Price = price;
             Description = description;
             Category = category;
             IsNew = isNew;
+
+
         }
 }
 }
